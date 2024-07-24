@@ -1,23 +1,23 @@
 .bg-blue {
-    background-color: #0065fc;
+    background-color: var(--main-color);
 }
 
 .text-blue {
-    color: #0065fc;
+    color: var(--main-color);
 }
 
 .bg-lightblue {
-    background-color: #deebff;
+    background-color: var(--main-bg-color);
 }
 
 .text-lightblue {
-    color: #deebff;
+    color: var(--main-bg-color);
 }
 
 .bg-gray {
-    background-color: #f2f2f2;
+    background-color: var(--main-bg-color);
 }
 
 .text-gray {
-    color: #f2f2f2;
+    color: var(--main-bg-color);
 }

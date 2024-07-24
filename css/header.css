@@ -47,7 +47,7 @@
     border-width: 2px;
 }
 .header-menu-item:hover {
-    border-top: solid #0065fc;
+    border-top: solid var(--main-color);
     border-bottom: solid transparent;
     border-width: 2px;
 }
@@ -59,14 +59,14 @@
     }
     .header-menu-item {
         margin-left: 0px;
-        border-bottom: solid #f2f2f2;
+        border-bottom: solid var(--main-bg-color);
         width: 50%;
         text-align: center;
         border-width: 2px;
     }
     .header-menu-item:hover {
         border-top: solid transparent;
-        border-bottom: solid #0065fc;
+        border-bottom: solid var(--main-color);
         border-width: 2px;
     }
 }

@@ -28,7 +28,7 @@
 
 .filters-buttons button {
     background-color: transparent;
-    border-color: #f2f2f2;
+    border-color: var(--main-bg-color);
     border-radius: 30px;
     border: solid #d9d9d9;
     transition: all 300ms ease-out;
@@ -40,7 +40,7 @@
 }
 
 .filters-buttons button:hover {
-    background-color: #deebff;
+    background-color: var(--filter-bg-color);
 }
 
 .filters-buttons button .fa-solid {
