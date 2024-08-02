@@ -45,11 +45,13 @@
     padding-bottom: 15px;
     font-weight: 100;
     border-width: 2px;
+    color: black;
 }
 .header-menu-item:hover {
     border-top: solid var(--main-color);
     border-bottom: solid transparent;
     border-width: 2px;
+    color: var(--main-color);
 }
 
 @media all and (max-width: 768px) {
